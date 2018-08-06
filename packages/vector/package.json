@@ -1,0 +1,14 @@
+{
+  "name": "avector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aposition": "^1.0.0"
+  }
+}
