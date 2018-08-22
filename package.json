@@ -6,12 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "aposition": "^1.0.0",
+    "ava": "^0.25.0",
     "avector": "^1.0.0",
-    "esm": "^3.0.74",
-    "lerna": "^3.0.0-rc.0"
+    "esm": "^3.0.79",
+    "lerna": "^3.1.2",
+    "nyc": "^12.0.2"
   }
 }
