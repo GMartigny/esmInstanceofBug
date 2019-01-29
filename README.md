@@ -2,8 +2,6 @@
 
 To reproduce run :
  - `npx lerna bootstrap`
- - `node`
- - `require("esm")`
- - `import "./index.js"`
+ - `node --require esm index.js`
 
-It should log `false` two time in the console instead of `true`.
+It will log `false` (incorrect behavior) two time in the console instead of `true`.
